@@ -1,7 +1,7 @@
 <?php
 
 // Include Threading
-require_once '../Threading.php';
+require_once 'Threading.php';
 
 // Instance new Threading class with 2 threads, 10 second timeout, 
 // standalone, log to STDOUT and include debug logging

@@ -1,7 +1,7 @@
 <?php
 
 // Include Threading
-require_once '../Threading.php';
+require_once 'Threading.php';
 
 // Instance new Threading class
 $pp = new Threading(2, 30, false, 'php://stdout', true);
